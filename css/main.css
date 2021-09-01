@@ -1212,6 +1212,7 @@ img {
 .main-header .header-upper .logo-box {
     position: relative;
     z-index: 12;
+    height: 90px;
     float: left;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -2550,7 +2551,6 @@ img {
 
 .about-section .image-column .inner-column {
     position: relative;
-    margin-left: -60px;
 }
 
 .about-section .image-column .inner-column .pattern-image {
@@ -3222,7 +3222,7 @@ img {
 
 .team-block .inner-box .image .overlay-box .content h4 a {
     position: relative;
-    color: #14193d;
+    color: #e7e7e7;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -3232,7 +3232,7 @@ img {
 
 .team-block .inner-box .image .overlay-box .content .designation {
     position: relative;
-    color: #5153ff;
+    color: #e7e7e7;
     font-size: 16px;
     line-height: 1.3em;
     margin-top: 8px;
@@ -3343,7 +3343,6 @@ img {
 
 .appointment-section {
     position: relative;
-    padding: 100px 0px 100px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3917,7 +3916,7 @@ img {
 .main-footer .logo-widget .social-box a {
     position: relative;
     font-size: 22px;
-    color: #626262;
+    color: #e7e7e7;
     margin-right: 12px;
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -4070,12 +4069,9 @@ img {
 
 .services-section-three {
     position: relative;
-    padding: 110px 0px 60px;
 }
 
-.services-section-three.style-two {
-    padding-bottom: 100px;
-}
+.services-section-three.style-two {}
 
 .services-section-three .sec-title .theme-btn {
     margin-top: 65px;
@@ -4208,7 +4204,6 @@ img {
 
 .about-section-two .content-column .inner-column {
     position: relative;
-    padding-top: 90px;
 }
 
 .about-section-two .content-column h2 {
@@ -4262,9 +4257,7 @@ img {
     display: block;
 }
 
-.about-section-two.style-two {
-    padding-bottom: 100px;
-}
+.about-section-two.style-two {}
 
 .about-section-two.style-two .content-column .button-box .theme-btn {
     border-radius: 0px;
@@ -4295,9 +4288,7 @@ img {
     max-width: 580px;
 }
 
-.about-section-two.style-four .content-column .inner-column {
-    padding-top: 125px;
-}
+.about-section-two.style-four .content-column .inner-column {}
 
 
 /*** 
@@ -4691,7 +4682,6 @@ img {
 
 .counter-section {
     position: relative;
-    padding: 80px 0px 50px;
 }
 
 
@@ -5359,11 +5349,7 @@ img {
     margin-bottom: 15px;
 }
 
-.treatment-section .content-column .inner-column {
-    position: relative;
-    padding-left: 70px;
-    padding-top: 90px;
-}
+.treatment-section .content-column .inner-column {}
 
 .treatment-section .content-column .text {
     position: relative;
@@ -5435,7 +5421,6 @@ img {
 
 .department-block .inner-box .content {
     position: relative;
-    padding-top: 45px;
 }
 
 .department-block .inner-box .content h2 {
@@ -5906,7 +5891,6 @@ img {
 
 .sidebar-page-container {
     position: relative;
-    padding: 90px 0px 80px;
 }
 
 .sidebar-page-container .content-side,
@@ -6371,7 +6355,6 @@ img {
 
 .contact-page-section {
     position: relative;
-    padding: 100px 0px 90px;
 }
 
 .contact-page-section .inner-container {
@@ -6567,4 +6550,8 @@ img {
 
 .contact-info-section .info-column:nth-child(3) .icon-box:before {
     border-color: #f98f74;
+}
+
+.logo a img {
+    height: 55px;
 }
